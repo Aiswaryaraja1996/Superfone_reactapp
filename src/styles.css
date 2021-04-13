@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+  @apply cursor-pointer pt-12 pb-2 flex-1 border-b-3 border-white transition duration-500;
+}
+
+.nav-hover {
+  @apply hover:border-gray-200 hover:bg-gray-100;
+}
+
+.nav-selected {
+  @apply border-indigo-600 bg-indigo-50;
+}
+
+.btn-light {
+  @apply cursor-pointer max-w-max px-6 py-2 rounded-full border-3 text-indigo-600 border-indigo-600 bg-gradient-to-r from-white to-white hover:from-violet hover:to-blues hover:border-white hover:text-white;
+}
+
+.btn-dark {
+  @apply cursor-pointer max-w-max px-6 py-2 rounded-full  bg-gradient-to-r from-violet to-blues text-white;
+}
+
+.plan {
+  @apply flex flex-col text-center bg-gray-200 border-2 border-gray-200 rounded shadow-md hover:bg-indigo-600  hover:border-indigo-600 transform transition duration-500 scale-100 hover:scale-105;
+}
+
+.plan-header-text {
+  @apply font-bold uppercase pt-3 text-lg text-gray-700;
+}
+
+.plan-header-price {
+  @apply font-light uppercase pt-1 text-gray-500;
+}
+
+.plan-header-user {
+  @apply text-xs text-gray-600 py-3;
+}
+
+.plan-body-features {
+  @apply my-2 px-5 border-l-3 border-indigo-600;
+}
+
+.faq-category {
+  @apply cursor-pointer flex place-items-end max-w-max py-3 rounded-full text-2xl text-gray-500;
+}
+
+.faq-category-selected {
+  @apply cursor-pointer flex  max-w-max px-10 py-3 rounded-full text-xl bg-gray-200 text-black;
+}
+
+.faq-component {
+  @apply p-5 rounded;
+}
+
+.faq-question {
+  @apply text-xl font-bold text-2xl pb-6 text-blue-500;
+}
+
+.faq-answer {
+  @apply text-gray-500;
+}
+
+.info-tip .info-tiptext {
+  @apply invisible w-40 h-16 bg-blues1 text-white rounded-md absolute text-center opacity-0 p-2 z-30 left-28 bottom-56;
+}
+
+.info-tip .info-tiptext::after {
+  @apply absolute;
+}
+
+.info-tip:hover .info-tiptext {
+  @apply visible opacity-100;
+}
