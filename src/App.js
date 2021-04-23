@@ -6,7 +6,7 @@ import Footer2 from "./footer2";
 
 function App() {
   return (
-    <div className="mx-20 relative cursor-default">
+    <div className="mx-5 md:mx-20 relative cursor-default">
       <Navbar />
       <Section1 />
       <Section2 />

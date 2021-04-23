@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav {
-  @apply cursor-pointer pt-12 pb-2 flex-1 border-b-3 border-white transition duration-500;
+  @apply cursor-pointer py-2 text-lg md:pt-12 md:pb-2 md:flex-1 border-b-3 border-white transition duration-500;
 }
 
 .nav-hover {
@@ -15,11 +15,11 @@
 }
 
 .btn-light {
-  @apply cursor-pointer max-w-max px-6 py-2 rounded-full border-3 text-indigo-600 border-indigo-600 bg-gradient-to-r from-white to-white hover:from-violet hover:to-blues hover:border-white hover:text-white;
+  @apply cursor-pointer max-w-max py-2 px-2 md:px-6 md:py-2 rounded-full border-3 text-indigo-600 border-indigo-600 bg-gradient-to-r from-white to-white hover:from-violet hover:to-blues hover:border-white hover:text-white;
 }
 
 .btn-dark {
-  @apply cursor-pointer max-w-max px-6 py-2 rounded-full  bg-gradient-to-r from-violet to-blues text-white;
+  @apply cursor-pointer max-w-max  py-2 px-2 md:px-6 md:py-2 rounded-full  bg-gradient-to-r from-violet to-blues text-white;
 }
 
 .plan {

@@ -32458,16 +32458,25 @@ video {
   border-color: rgba(255, 255, 255, var(--tw-border-opacity));
   border-bottom-width: 3px;
   cursor: pointer;
-  -webkit-flex: 1 1 0%;
-          flex: 1 1 0%;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-top: 3rem;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
   transition-duration: 500ms;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    -webkit-flex: 1 1 0%;
+            flex: 1 1 0%;
+    padding-bottom: 0.5rem;
+    padding-top: 3rem;
+  }
 }
 
 .nav-hover:hover {
@@ -32515,8 +32524,8 @@ video {
   max-width: max-content;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   --tw-text-opacity: 1;
   color: rgba(79, 70, 229, var(--tw-text-opacity));
 }
@@ -32524,6 +32533,15 @@ video {
 .btn-light:hover {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .btn-light {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 .btn-dark {
@@ -32537,10 +32555,19 @@ video {
   max-width: max-content;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .btn-dark {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 .plan {

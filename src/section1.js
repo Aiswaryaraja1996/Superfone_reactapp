@@ -7,9 +7,9 @@ function Section1() {
         <img src="Component 12 – 6.png" />
       </div>
       <section>
-        <div classNameName="grid grid-cols-5 h-screen/3">
-          <div className="flex items-center justify-around col-span-3">
-            <div className="p-12">
+        <div classNameName="md:grid md:grid-cols-5 md:h-screen/3">
+          <div className="block md:flex items-center justify-around col-span-3">
+            <div className="md:p-12">
               <div>
                 <h4 className="text-4xl mx-5">
                   Try all Features Free for 30 Days
@@ -18,23 +18,23 @@ function Section1() {
                   No Credit card required
                 </p>
               </div>
-              <div className="flex">
-                <div className="btn-light mx-5 hover:btn-dark">
+              <div className="md:flex">
+                <div className="btn-light md:mx-5 hover:btn-dark">
                   <p>Start free Trial</p>
                 </div>
-                <div className="btn-dark mx-5 hover:btn-light">
+                <div className="btn-dark md:mx-5 hover:btn-light">
                   <p>Request Demo</p>
                 </div>
               </div>
             </div>
-            <div className="flex h-5/6 justify-center col-span-2">
+            <div className="md:flex md:h-5/6 justify-center col-span-2">
               <img src="Group 4701.png" />
             </div>
           </div>
         </div>
         <div className="bg-gradient-to-b from-white to-indigo-100">
-          <div className="py-12 px-60">
-            <div className="grid grid-cols-2 gap-2">
+          <div className="py-12 md:py-12 md:px-60">
+            <div className="md:grid md:grid-cols-2 md:gap-2">
               <div className="group plan">
                 <div className="flex-none py-6 px-14">
                   <p className="plan-header-text group-hover:text-white">
@@ -43,7 +43,7 @@ function Section1() {
                   <p className="plan-header-price group-hover:text-white">
                     0 INR
                   </p>
-                  <div className="flex justify-around p-2 opacity-0">
+                  <div className="md:flex justify-around p-2 opacity-0">
                     <div className="p-1 px-2 rounded-full border-2 border-white">
                       <p className="text-sm font-bold group-hover:text-white">
                         Monthly
@@ -60,7 +60,7 @@ function Section1() {
                   </p>
                 </div>
 
-                <div className="flex-grow p-5 py-10 pl-20 bg-white">
+                <div className="md:flex-grow p-5 py-10 pl-20 bg-white">
                   <div className="plan-body-features">
                     <p className="flex">Call Logs Tracking</p>
                   </div>
@@ -98,21 +98,21 @@ function Section1() {
                     <p className="flex">Task Management</p>
                   </div>
                 </div>
-                <div className="flex-none flex justify-center px-20 py-5 bg-white">
+                <div className="md:flex-none flex justify-center px-20 py-5 bg-white">
                   <div className="btn-light">
                     <p>Get Started</p>
                   </div>
                 </div>
               </div>
               <div className="group plan">
-                <div className="flex-none py-6 px-14">
+                <div className="py-12 md:flex-none md:py-6 md:px-14">
                   <p className="plan-header-text group-hover:text-white">
                     TEAM PLAN
                   </p>
                   <p className="plan-header-price group-hover:text-white">
                     650 INR/User
                   </p>
-                  <div className="flex justify-around p-2">
+                  <div className="md:flex justify-around p-2">
                     <div className="p-1 px-2 rounded-full border-2 border-white">
                       <p className="text-sm font-bold text-gray-700 group-hover:text-white">
                         Monthly
@@ -129,7 +129,7 @@ function Section1() {
                   </p>
                 </div>
 
-                <div className="flex-grow p-2 py-10 pl-20 bg-white">
+                <div className="md:flex-grow p-2 py-10 pl-20 bg-white">
                   <div className="plan-body-features">
                     <p className="flex">Call Logs Tracking</p>
                   </div>
