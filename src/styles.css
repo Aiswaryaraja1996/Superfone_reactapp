@@ -43,7 +43,7 @@
 }
 
 .faq-category {
-  @apply cursor-pointer flex md:place-items-end max-w-max py-3 rounded-full text-lg md:text-2xl text-gray-500;
+  @apply cursor-pointer flex  text-center md:place-items-end max-w-max py-3 rounded-full text-lg md:text-2xl text-gray-500;
 }
 
 .faq-category-selected {

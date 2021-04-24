@@ -32675,6 +32675,7 @@ video {
   max-width: max-content;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  text-align: center;
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
 }

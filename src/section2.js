@@ -14,8 +14,8 @@ function Section2() {
           </p>
         </div>
 
-        <div className="md:grid md:grid-cols-5 md:gap-8 md:py-4 md:px-10">
-          <div className="md:col-span-2 md:border-r md:border-gray-500 py-5">
+        <div className="px-10 md:grid md:grid-cols-5 md:gap-8 md:py-4 md:px-10">
+          <div className="md:col-span-2   md:border-r md:border-gray-500 py-5">
             <div className="faq-category  hover:bg-gray-200 hover:text-black">
               <p>Phone and platform</p>
             </div>

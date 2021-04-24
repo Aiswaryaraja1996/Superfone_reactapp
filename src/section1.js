@@ -14,7 +14,7 @@ function Section1() {
                 <h4 className="text-4xl text-center m-5 md:mx-5">
                   Try all Features Free for 30 Days
                 </h4>
-                <p className="text-xl font-light md:m-5">
+                <p className="text-xl text-center font-light md:m-5">
                   No Credit card required
                 </p>
               </div>
@@ -36,21 +36,21 @@ function Section1() {
           <div className="py-12 md:py-12 md:px-60">
             <div className="md:grid md:grid-cols-2 md:gap-2">
               <div className="group plan">
-                <div className="flex-none py-6 px-14">
+                <div className="py-12 md:flex-none md:py-6 md:px-14">
                   <p className="plan-header-text group-hover:text-white">
-                    Free Forever
+                    FREE FOREVER
                   </p>
                   <p className="plan-header-price group-hover:text-white">
                     0 INR
                   </p>
                   <div className="md:flex justify-around p-2 opacity-0">
                     <div className="p-1 px-2 rounded-full border-2 border-white">
-                      <p className="text-sm font-bold group-hover:text-white">
+                      <p className="text-sm font-bold text-gray-700 group-hover:text-white">
                         Monthly
                       </p>
                     </div>
                     <div className="p-1 px-2 rounded-full border-2 border-white">
-                      <p className="text-sm font-bold group-hover:text-white">
+                      <p className="text-sm font-bold text-gray-700 group-hover:text-white">
                         Anually
                       </p>
                     </div>
