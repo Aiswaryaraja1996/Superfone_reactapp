@@ -19,25 +19,25 @@ function Footer2() {
             </div>
           </div>
           <div class="md:flex md:pb-6">
-            <div class="grid grid-cols-2 text-gray-500 text-sm md:text-lg md:font-medium">
-              <div class="md:px-8 py-2">
+            <div class="my-2 grid grid-cols-2 text-gray-500 text-sm md:text-lg md:font-medium">
+              <div class="py-1 md:px-8 md:py-2">
                 <p>Pricing</p>
               </div>
-              <div class="md:px-8 py-1">
+              <div class="py-1 md:px-8 md:py-1">
                 <p>Blog</p>
               </div>
-              <div class="md:px-8 py-1">
+              <div class="py-1 md:px-8 md:py-1">
                 <p>Integration</p>
               </div>
-              <div class="md:px-8 py-1">
+              <div class="py-1 md:px-8 md:py-1">
                 <p>Privacy</p>
               </div>
-              <div class="md:px-8 py-2">
+              <div class="py-1 md:px-8 md:py-2">
                 <p>Teams</p>
               </div>
             </div>
-            <div class="md:flex items-start  md:pl-12">
-              <img src="google-play-badge.png" width="200px" height="50px" />
+            <div class="md:flex items-start md:pl-12">
+              <img class="img-res" src="google-play-badge.png" />
             </div>
           </div>
         </div>

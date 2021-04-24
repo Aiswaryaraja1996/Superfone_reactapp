@@ -3,9 +3,13 @@ import "./styles.output.css";
 function Navbar() {
   return (
     <div className="sticky top-0 md:grid md:grid-cols-3 md:justify-between md:px-20 bg-white z-50 ">
-      <div className="cursor-pointer col-span-1">
+      <div className="flex cursor-pointer col-span-1">
         <img src="./head.png" />
+        <div className="pt-12 md:hidden">
+          <i class="text-gray-500 fa fa-2x fa-bars"></i>
+        </div>
       </div>
+
       <div className="md:col-span-2 text-gray-500">
         <ul className="block px-2 py-1 md:flex justify-between md:text-center md:items-stretch ">
           <div className="nav nav-hover ">Features</div>

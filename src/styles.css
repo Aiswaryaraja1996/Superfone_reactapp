@@ -73,3 +73,11 @@
 .info-tip:hover .info-tiptext {
   @apply visible opacity-100;
 }
+
+.img-res {
+  @apply w-2/4 md:w-48;
+}
+
+.img-res1 {
+  @apply w-3/4 md:w-full;
+}

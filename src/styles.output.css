@@ -32754,6 +32754,26 @@ video {
   visibility: visible;
 }
 
+.img-res {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .img-res {
+    width: 12rem;
+  }
+}
+
+.img-res1 {
+  width: 75%;
+}
+
+@media (min-width: 768px) {
+  .img-res1 {
+    width: 100%;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

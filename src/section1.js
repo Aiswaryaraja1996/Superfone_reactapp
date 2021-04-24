@@ -3,8 +3,8 @@ import "./styles.output.css";
 function Section1() {
   return (
     <div>
-      <div className="fixed bottom-16 right-20 z-0">
-        <img src="Component 12 – 6.png" />
+      <div className="fixed bottom-16 right-0 md:right-20 z-0">
+        <img className="img-res1" src="Component 12 – 6.png" />
       </div>
       <section>
         <div classNameName="md:grid md:grid-cols-5 md:h-screen/3">
@@ -14,7 +14,7 @@ function Section1() {
                 <h4 className="text-4xl text-center m-5 md:mx-5">
                   Try all Features Free for 30 Days
                 </h4>
-                <p className="text-xl font-light text-center md:m-5">
+                <p className="text-xl font-light md:m-5">
                   No Credit card required
                 </p>
               </div>
