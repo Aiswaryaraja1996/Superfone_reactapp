@@ -9,25 +9,25 @@ function Section1() {
       <section>
         <div classNameName="md:grid md:grid-cols-5 md:h-screen/3">
           <div className="block md:flex items-center justify-around col-span-3">
-            <div className="md:p-12">
+            <div className="justify-items-center md:p-12">
               <div>
-                <h4 className="text-4xl mx-5">
+                <h4 className="text-4xl text-center m-5 md:mx-5">
                   Try all Features Free for 30 Days
                 </h4>
-                <p className="text-xl font-light m-5">
+                <p className="text-xl font-light text-center md:m-5">
                   No Credit card required
                 </p>
               </div>
               <div className="md:flex">
-                <div className="btn-light md:mx-5 hover:btn-dark">
+                <div className="btn-light text-center my-5 md:my-0 md:mx-5 hover:btn-dark">
                   <p>Start free Trial</p>
                 </div>
-                <div className="btn-dark md:mx-5 hover:btn-light">
+                <div className="text-center btn-dark md:mx-5 hover:btn-light">
                   <p>Request Demo</p>
                 </div>
               </div>
             </div>
-            <div className="md:flex md:h-5/6 justify-center col-span-2">
+            <div className="md:flex p-5 md:h-5/6 justify-center md:col-span-2">
               <img src="Group 4701.png" />
             </div>
           </div>
@@ -77,7 +77,7 @@ function Section1() {
                     <p className="flex">Visit Outcome Capture</p>
                   </div>
                   <div className="plan-body-features">
-                    <p className="flex">Premainders/Follow Ups</p>
+                    <p className="flex">Premainders/Follow</p>
                   </div>
                   <div className="plan-body-features">
                     <p className="flex">Voice to Text inputs</p>
@@ -146,7 +146,7 @@ function Section1() {
                     <p className="flex">Visit Outcome Capture</p>
                   </div>
                   <div className="plan-body-features">
-                    <p className="flex">Premainders/Follow Ups</p>
+                    <p className="flex">Premainders/Follow</p>
                   </div>
                   <div className="plan-body-features">
                     <p className="flex">Voice to Text inputs</p>
@@ -184,9 +184,9 @@ function Section1() {
               </div>
             </div>
           </div>
-          <div className="py-12 px-60">
-            <div className="grid grid-cols-7 bg-white p-10 rounded-lg shadow-lg overflow-hidden">
-              <div className="col-span-3 flex justify-center items-center">
+          <div className="md:py-12 md:px-60">
+            <div className="md:grid md:grid-cols-7 bg-white p-10 rounded-lg shadow-lg overflow-hidden">
+              <div className="md:col-span-3 flex justify-center items-center">
                 <img src="Group 5994.png" />
               </div>
               <div className="justify-start items-center col-span-4">
@@ -202,7 +202,7 @@ function Section1() {
                 <p className="px-2 pt-1 pb-5 text-sm text-gray-600">
                   Additionally Charged with the Team Plan
                 </p>
-                <div className="btn-light mx-2">
+                <div className="btn-light text-center mx-2">
                   <p>Start Free Trial</p>
                 </div>
               </div>

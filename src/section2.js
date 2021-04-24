@@ -2,7 +2,7 @@ import "./styles.output.css";
 
 function Section2() {
   return (
-    <section className="h-screen p-20 pt-15">
+    <section className="md:h-screen md:p-20 md:pt-15">
       <div className="text-center">
         <div className="pb-5">
           <h3 className="p-5 text-3xl font-bold">Frequently Asked Question</h3>
@@ -14,8 +14,8 @@ function Section2() {
           </p>
         </div>
 
-        <div className="grid grid-cols-5 gap-8 py-4 px-10">
-          <div className="col-span-2 border-r border-gray-500 py-5">
+        <div className="md:grid md:grid-cols-5 md:gap-8 md:py-4 md:px-10">
+          <div className="md:col-span-2 md:border-r md:border-gray-500 py-5">
             <div className="faq-category  hover:bg-gray-200 hover:text-black">
               <p>Phone and platform</p>
             </div>

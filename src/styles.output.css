@@ -32520,8 +32520,6 @@ video {
   border-radius: 9999px;
   border-width: 3px;
   cursor: pointer;
-  max-width: -webkit-max-content;
-  max-width: max-content;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
@@ -32537,6 +32535,8 @@ video {
 
 @media (min-width: 768px) {
   .btn-light {
+    max-width: -webkit-max-content;
+    max-width: max-content;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1.5rem;
@@ -32551,8 +32551,6 @@ video {
   --tw-gradient-to: #3059C8;
   border-radius: 9999px;
   cursor: pointer;
-  max-width: -webkit-max-content;
-  max-width: max-content;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
@@ -32563,6 +32561,8 @@ video {
 
 @media (min-width: 768px) {
   .btn-dark {
+    max-width: -webkit-max-content;
+    max-width: max-content;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1.5rem;
@@ -32669,15 +32669,22 @@ video {
   cursor: pointer;
   display: -webkit-flex;
   display: flex;
-  place-items: end;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   max-width: -webkit-max-content;
   max-width: max-content;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .faq-category {
+    place-items: end;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 .faq-category-selected {

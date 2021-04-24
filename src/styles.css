@@ -15,11 +15,11 @@
 }
 
 .btn-light {
-  @apply cursor-pointer max-w-max py-2 px-2 md:px-6 md:py-2 rounded-full border-3 text-indigo-600 border-indigo-600 bg-gradient-to-r from-white to-white hover:from-violet hover:to-blues hover:border-white hover:text-white;
+  @apply cursor-pointer md:max-w-max py-2 px-2 md:px-6 md:py-2 rounded-full border-3 text-indigo-600 border-indigo-600 bg-gradient-to-r from-white to-white hover:from-violet hover:to-blues hover:border-white hover:text-white;
 }
 
 .btn-dark {
-  @apply cursor-pointer max-w-max  py-2 px-2 md:px-6 md:py-2 rounded-full  bg-gradient-to-r from-violet to-blues text-white;
+  @apply cursor-pointer md:max-w-max  py-2 px-2 md:px-6 md:py-2 rounded-full  bg-gradient-to-r from-violet to-blues text-white;
 }
 
 .plan {
@@ -43,7 +43,7 @@
 }
 
 .faq-category {
-  @apply cursor-pointer flex place-items-end max-w-max py-3 rounded-full text-2xl text-gray-500;
+  @apply cursor-pointer flex md:place-items-end max-w-max py-3 rounded-full text-lg md:text-2xl text-gray-500;
 }
 
 .faq-category-selected {
